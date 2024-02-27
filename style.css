@@ -4,6 +4,10 @@ body{
     color: white;
 }
 
+h4{
+    line-height: 0%;
+}
+
 a{
     color: rgb(254, 254, 120);
 }
