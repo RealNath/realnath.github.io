@@ -18,10 +18,12 @@ h4{
 
 hr.video{
     border-color: yellow;
+    border-style:solid;
 }
 
 hr.social{
     border-color: red;
+    border-style:solid;
 }
 
 iframe.discord{
