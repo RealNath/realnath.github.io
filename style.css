@@ -7,7 +7,7 @@ body{
 
 /*Hamburger Menu*/
 .hamMenu{
-    width: 100%;
+    width: 96.5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
