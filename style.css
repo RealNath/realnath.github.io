@@ -1,4 +1,4 @@
-body{
+body {
     font-family: "Open Sans";
     background-color: #252526;
     color: white;
@@ -6,7 +6,7 @@ body{
 }
 
 /*Hamburger Menu*/
-.hamMenu{
+.hamMenu {
     width: 96.5%;
     display: flex;
     justify-content: space-between;
@@ -14,7 +14,7 @@ body{
     list-style: none;
     padding: 12px;
 }
-.menu{display: flex;}
+.menu {display: flex;}
 .menu li {padding-left: 30px;}
 .menu li a {
     display: inline-block;
@@ -59,10 +59,11 @@ body{
         align-items: flex-end;
         padding: 20px 10px;
         justify-content: flex-start;
-        width: 40%;
+        width: 150px;
         opacity: 75%;
         border-radius: 7.5%;
-        height: 30vh;
+        height: 185px;
+        margin: 42px 35px 0 0;
         position: fixed;
         top: 0;
         right: -100%;
@@ -70,8 +71,25 @@ body{
         background-color: black;
         transition: all 0.2s ease-in-out;
     }
-    .menu li {margin-top: 40px;}
-    .menu li a {padding: 10px;}
+    .menu li {
+        margin: 60px 0 -30px 0;
+    }
+    .menu li a {
+        padding: 0 15px 0 0;
+    }
+    .menu li a::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 1px;
+        background-color: white;
+        transition: width 0.2s;
+    }
+    .menu li a:hover:after {
+        width: 83%;
+    }
     .openHam , .closeHam {display: block;}
     .openHam {
         position: relative;
