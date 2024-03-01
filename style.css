@@ -2,17 +2,17 @@ body {
     font-family: "Open Sans";
     background-color: #252526;
     color: white;
-    padding: 20px;
+    padding: 0 10%;
 }
 
 /*Hamburger Menu*/
 .hamMenu {
-    width: 96.5%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    padding: 12px;
+    padding: 0px 0px 0px 0px;
 }
 .menu {display: flex;}
 .menu li {padding-left: 30px;}
@@ -52,8 +52,11 @@ body {
     right: 20px;
 }
 #check {display: none;}
-/*Hamburger Menu (Mobile)*/
+/*Hamburger Menu and Mobile*/
 @media(max-width: 610px){
+    body{
+        padding: 15px;
+    }
     .menu {
         flex-direction: column;
         align-items: flex-end;
@@ -63,7 +66,7 @@ body {
         opacity: 75%;
         border-radius: 7.5%;
         height: 185px;
-        margin: 42px 35px 0 0;
+        margin: 25px 25px 0 0;
         position: fixed;
         top: 0;
         right: -100%;
