@@ -5,7 +5,7 @@ body {
     padding: 0 10%;
 }
 
-.logo{
+.logo {
     pointer-events: none;
 }
 
@@ -38,7 +38,9 @@ body {
     background-color: white;
     transition: 0.15s ease-in-out;
 }
-.menu li a:hover:after {width: 100%;}
+.menu li a:hover:after {
+    width: 100%;
+}
 .openHam , .closeHam {
     position:absolute;
     color: white;
@@ -106,36 +108,36 @@ body {
     #check:checked ~ .openHam {display: none;}
 }
 
-h1{
+h1 {
     font-size: 50px;
 }
 
-h2{
+h2 {
     line-height: 0%;
 }
 
-h4{
+h4 {
     line-height: 0%;
 }
 
-hr.video{
+hr.video {
     border-color: yellow;
     border-style:solid;
 }
 
-hr.social{
+hr.social {
     border-color: red;
     border-style:solid;
 }
 
-img.githubProfile{
+img.githubProfile {
     filter: invert(1);
 }
 
-iframe.discord{
+iframe.discord {
     margin-top: 5px;
 }
 
-a{
+a {
     color: rgb(254, 254, 120);
 }
