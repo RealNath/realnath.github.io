@@ -5,6 +5,10 @@ body {
     padding: 0 10%;
 }
 
+.logo{
+    pointer-events: none;
+}
+
 /*Hamburger Menu*/
 .hamMenu {
     width: 100%;
